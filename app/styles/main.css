@@ -1,0 +1,231 @@
+body,ul,li {
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+.button, .button a {
+    color: white !important;
+    font-weight: normal !important;
+}
+
+#thelist li img {
+    width: 100%;
+    max-height: 500px; /* for very high images it helps */
+} 
+
+#thelist li .item-settings-image {
+    width: 25px;
+} 
+
+#page-buy ul.item-settings li {
+    border: 2px dashed pink;
+    width: 50px;
+}
+
+#page-person li.itemmini {
+    list-style-type: none;
+    float: left;
+    height: 150px; /* from filepicker retrieving converted */
+    border : 2px solid black;
+    margin: 3px;
+}
+#page-person li.itemmini img {
+    width: 100%;
+}
+
+#page-profile li.edititem {
+    list-style-type: none;
+    clear: both;
+}
+
+#page-profile img.edititem, #page-profile .messages, #page-profile .retakephoto, #page-profile .shareitem, #page-profile .deleteitem {
+    float: left;
+}
+
+.twittertweet {
+    position: relative;
+    top: -127px;
+    right: -127px;
+}
+
+/* http://www.w3schools.com/css/css_image_transparency.asp */
+img.loading {
+    opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.newitem {
+    position: relative;
+}
+
+.newitem:nth-child(2n) {
+    background: rgba(100,100,100,0.5);
+}
+.newitem:nth-child(2n+1) {
+    background: rgba(50,50,50,0.5);
+}
+
+.newitem img {
+    height: 70px;
+    padding: 5px 5px 2px 5px; /* hack here */
+}
+
+.block {
+    display: block;
+}
+
+#item img#main {
+    margin: 55px 0 0 10px;
+    width: 300px;
+}
+
+#item #soldby img {
+    height : 30px;
+}
+
+#person #thisisme img {
+    height: 50px;
+}
+
+#imageupload {
+    width: 256px;
+    padding-top: 8px;
+}
+
+.prices {
+    margin-top: 20px;
+}
+
+.prices .price {
+    border : 2px solid gray;
+    padding : 5px;
+    margin-right: 5px;
+    background: yellow;
+}
+.prices .price.selected {
+    padding: 2px;
+    border : 5px solid green;
+}
+
+img#myimage, #result img {
+    height: 30px;
+}
+
+#page-buy #thelist li.item {
+    display: block;
+    list-style-type:none;
+}
+
+.warning {
+    color: red;
+    background: yellow;
+}
+
+.nav-glyphish-example .ui-btn .ui-btn-inner {
+    padding-top: 40px !important; 
+}
+
+.nav-glyphish-example .ui-btn .ui-icon { 
+    width: 45px!important; 
+    height: 35px!important; 
+    margin-left: -24px !important; 
+    box-shadow: none!important; 
+    -moz-box-shadow: none!important; 
+    -webkit-box-shadow: none!important;
+    -webkit-border-radius: none !important;
+    border-radius: none !important; 
+    background-image: url(../images/glyphish.png);
+}
+
+#home .ui-icon { 
+    background-position: -345px -112px;
+}
+
+#sell .ui-icon { 
+    background-position: -9px -61px;
+}
+
+#buy .ui-icon { 
+    background-position: -9px -540px;
+}
+
+#profile .ui-icon { 
+    background-position: -9px -783px;
+}
+
+#search .ui-icon { 
+    background-position: -394px -733px; 
+}
+
+textarea#debug {
+    width: 100%;
+    height: 30px;
+}
+
+.cleaner {height: 0px; clear: both;}
+
+.page {
+    position:absolute;
+    top: 45px;
+    bottom: 45px;
+}
+
+h1 {
+    font-size: 1.7em;
+}
+h2 {
+    font-size: 1.4em;
+}
+
+ul.bullets {
+    padding-left: 20px;
+}
+ul.bullets li {
+    list-style-type: square;
+}
+
+div.loadmore {
+    margin-top: 20px;
+    background: gray;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+a.loadmore {
+    text-decoration: none;
+}
+
+.deleteitem {
+    background : red !important;
+}
+
+#page-buy .closemessagebox {
+    background: #FFE01F !important;
+}
+
+.messagecontainer {
+    width: 100%;
+}
+
+.sendmessage {
+    margin-top: 11px !important;
+    background : #FF24E1 !important;
+    width: 15%;
+    float: left;
+}
+
+textarea.message 
+{
+    width: 67% !important; 
+    float: left;
+}
+
+.messagehistory {
+    overflow-y: scroll; 
+    max-height:150px;
+}
+
